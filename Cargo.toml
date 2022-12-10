@@ -1,0 +1,13 @@
+[package]
+name = "bot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+azalea = { git="https://github.com/mat-1/azalea", rev="9f5e5c092be9167e4d5222fdee4a1d2c419e5052" }
+azalea-protocol = { git="https://github.com/mat-1/azalea", rev="9f5e5c092be9167e4d5222fdee4a1d2c419e5052" }
+parking_lot = "0.12.1"
+tokio = "1.23.0"
+anyhow = "1.0.66"
